@@ -1,0 +1,46 @@
+//Estruturas condicionais
+//para validar verdadeiro e falso
+//Desafio: Validar se um número é par (td número par ao ser divido por 2 tem o resto da divisão como zero, na programação o resto de uma divisáo é representado pelo símbolo %)
+
+// quando insiro a equivalencia == pergunto se o resultado for zero, se é verdadeiro ou falso.
+
+const numero=10;
+
+const eNumeroPar = numero % 2 == 0;
+ console.log(eNumeroPar);
+
+// Neste exemplo o resultado no console é verdadeiro.
+// Utilizando IF
+
+
+const numero=10;const numero=3
+const eNumeroPar = numero % 2 == 0
+
+
+if (eNumeroPar)
+{
+    console.log("par");
+    
+}
+
+if(!eNumeroPar){
+    console.log("ímpar");
+    
+
+
+// Se eu precisar validar 3 possibilidades? como faria?
+//Neste caso, preciso utilizar o else, o else vai validar o primeiro if e verificar se a proposição é verdadeira, se sim, ele vai parar e retornar o resultado, se não ele vai validar o próximo if e assim sucessivamente:
+
+
+onst numero= 5;
+conste numerodividep= (numero % 5)==0;
+
+if (numero==0){ 
+console.log("O número é nulo");
+}
+else if (numeroDividepor5){
+                console.log("sim");
+ }
+ else {
+     console.log("Não");
+ }
