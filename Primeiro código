@@ -1,0 +1,23 @@
+// use  console.log (""); para imprimir texto na tela
+// para armazenar variaveis = let ou const no let eu posso mudar o valor, a cons
+ //é uma constante, então uma vez declarada não dá pra mudar. ex. const pi = 3.14;
+//Em programação, como a maioria ocorre em ingles, para valores numericos deciamis não usamos virgula e sim ponto.
+//para arredondar as casas decimais nos resultados, uma das formas é converter a variavel em um texto, então no final da variavel que esta sendo impressa, colocamos toFixed(2). Ex: console.log(ValorGasto.toFixed(2));
+
+
+//Desafio 1: Faça um programa p/ calcular o valor gasto de combustivel em uma viagem.
+const precoCombustivel = 5.76;
+const kmPorLitros = 10;
+const distanciaEmKm = 100;
+
+const litrosConsumidos = distanciaEmKm / kmPorLitros;
+const ValorGasto = litrosConsumidos * precoCombustivel;
+console.log(ValorGasto.toFixed(2));
+
+
+const precoPorLitro = 7.88;
+const ConsumoMediokmporLitro = 15;
+const distanciaViagemKm = 500;
+
+const gastoTotalViagem = (distanciaViagemKm/ConsumoMediokmporLitro*precoPorLitro);
+console.log(gastoTotalViagem.toFixed(2));
