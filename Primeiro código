@@ -6,11 +6,12 @@
 
 
 //Desafio 1: Faça um programa p/ calcular o valor gasto de combustivel em uma viagem.
+
 const precoCombustivel = 5.76;
-const kmPorLitros = 10;
+const  kmPorLitros = 10;
 const distanciaEmKm = 100;
 
-const litrosConsumidos = distanciaEmKm / kmPorLitros;
+const litrosConsumidos = distanciaEmKm /kmPorLitros;
 const ValorGasto = litrosConsumidos * precoCombustivel;
 console.log(ValorGasto.toFixed(2));
 
